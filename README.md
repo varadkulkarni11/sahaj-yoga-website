@@ -1,5 +1,7 @@
 # Sahaj Yoga Classes — website
 
+**https://sahajyogacentre.co.in/**
+
 ## What's in here
 
     index.html          the whole site, one file (HTML + CSS + structured data)
@@ -10,15 +12,15 @@ Nothing else is needed. Open `index.html` in any browser to view it locally.
 
 ## Phone numbers
 
-No phone number appears as text anywhere on the page, and there are no
-`tel:` links. Contact runs entirely through the WhatsApp buttons.
+The footer shows both numbers as plain text, with `tel:` links, next to the
+studio address. Google Business Profile needs that name, address and phone
+on the site to match the listing:
 
-One thing to be aware of: a WhatsApp deep link is `wa.me/<number>`, so the
-number is inside the button's link even though nobody sees it on screen. It
-shows in the browser status bar on hover and in "copy link address". There
-is no way around that while still having a one-tap WhatsApp button. If you
-want the numbers fully off the page, the alternative is a contact form,
-which needs a backend and loses the one-tap behaviour.
+- Bharti Chhajed: +91 95192 96603
+- Vrishali Kulkarni: +91 88059 86116
+
+The same numbers are also inside the WhatsApp buttons (`wa.me/<number>`), so
+they show in the browser status bar on hover and in "copy link address".
 
 ## Fonts
 
